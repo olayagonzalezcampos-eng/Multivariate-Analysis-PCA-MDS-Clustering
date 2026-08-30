@@ -25,3 +25,5 @@ To reproduce this analysis from start to finish, run the scripts in the followin
 1. **RStudio**: Run `scripts/data_cleaning_and_EDA.R`. This step will take the raw data from `data/raw/` and generate the `data_cleaning.csv` file in the `data/processed/` folder.
 2. **MATLAB**: Open and run `scripts/assignment_PCA.m` to obtain the results and plots for the principal components.
 3. **MATLAB**: Open and run `scripts/second_assignment.m` to generate the MDS models and clusters.
+
+> **Note on reproducibility:** The MATLAB scripts (`assignment_PCA.m` and `second_assignment.m`) rely on a set of custom auxiliary functions provided by our university professor. These specific utility functions are not included in this public repository to respect academic copyright policies.
