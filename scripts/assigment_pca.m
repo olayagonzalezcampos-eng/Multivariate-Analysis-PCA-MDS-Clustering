@@ -8,7 +8,7 @@ clc
 close all
 
 %% Import dataset
-data = readtable('data_cleaning.csv');
+data = readtable('data/processed/data_cleaning.csv');
 
 numeric_vars     = {'age','uniform','food', 'books', 'computer','activities'};
 binary_vars      = {'sex','help'};
