@@ -7,7 +7,7 @@
 
 rm(list=ls())
 
-data <- read.delim("C:/Escritorio/máster/Multivariata Analysis/first assignment/EGHE_2023.tab", stringsAsFactors=TRUE)
+data <- read.delim("data/raw/EGHE_2023.tab", stringsAsFactors = TRUE)
 #Sexo, Edad, Nacionalidad, Estudiante(si realiza algun tipo de estudios), C01(Tipo de enseñanza), 
 #MCL(Importe del gasto en matricula y clases lectivas), C11A(Importe del gasto en transporte), 
 #C19A(Importe del gasto en extraescolares), LIB(Importe del gasto en libros y de ayuda al estudio),
